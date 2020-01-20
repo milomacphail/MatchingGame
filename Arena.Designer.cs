@@ -95,7 +95,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "C";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // label2
             // 
@@ -285,7 +284,6 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Arena";
             this.Text = "MatchingImages.cs";
-            this.Load += new System.EventHandler(this.Arena_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
