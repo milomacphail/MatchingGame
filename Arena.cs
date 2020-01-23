@@ -104,7 +104,7 @@ namespace MatchingGame
                 }
             }
 
-            MessageBox.Show("You Matched every icon! Such a winner, you.");
+            MessageBox.Show("You matched every icon! Such a winner, you.");
             Close();
 
         }
